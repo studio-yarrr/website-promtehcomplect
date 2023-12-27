@@ -1,0 +1,31 @@
+.universal-title-block {
+    position: relative;
+    border-radius: 5rem;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    h1 {
+        position: absolute;
+        right: 12rem;
+        bottom: 3.8rem;
+        z-index: 11;
+        width: fit-content;
+        color: var(--black);
+        font-family: BOWLER;
+        font-size: 9.6rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 9.6rem;
+        letter-spacing: 0.48rem;
+        text-transform: uppercase;
+
+        &.--white {
+            color: var(--white);
+        }
+    }
+}

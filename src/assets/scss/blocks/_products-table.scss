@@ -1,0 +1,110 @@
+.breadcrumbs {
+    color: rgba(24, 24, 34, 0.25);
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.4rem;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    margin-top: 4rem;
+
+    svg {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+    a {
+        color: rgba(24, 24, 34, 0.25);
+        text-decoration: none;
+    }
+
+    p {
+        color: var(--opacity-blue);
+    }
+}
+
+.table {
+    margin-top: 12rem;
+
+    .table-first {
+        background: rgba(121, 160, 213, 0.50);
+        color: var(--black);
+        font-family: BOWLER;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.8rem;
+        letter-spacing: 0.1rem;
+        text-transform: uppercase;
+    }
+
+    li {
+
+        ul {
+            display: flex;
+
+            li {
+                padding: 1.5rem;
+                color: var(--black);
+                font-size: 2.4rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 3.2rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 1rem;
+
+                &.--added {
+                    color: var(--blue);
+                }
+
+                input {
+                    width: 8rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 0.1rem solid var(--opacity-blue);
+                    padding: 1rem;
+                    color: var(--black);
+                    font-size: 2.4rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 3.2rem;
+                    outline: none;
+                    text-align: center;
+                }
+
+                button {
+                    background: none;
+                    border: none;
+                }
+
+                &:nth-child(1) {
+                    width: 30rem;
+
+                }
+
+                &:nth-child(2) {
+                    width: 33rem;
+
+                }
+
+                &:nth-child(3) {
+                    width: 47rem;
+                }
+
+                &:nth-child(4) {
+                    width: 32rem;
+                }
+
+                &:nth-child(5) {
+                    width: 33rem;
+                }
+            }
+        }
+
+
+    }
+}

@@ -1,0 +1,24 @@
+.ticker {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1.8rem;
+    overflow: hidden;
+    padding: 3.4rem 0;
+    background: var(--blue);
+    margin-top: 9rem;
+
+    p {
+        color: var(--white);
+        font-size: 2.4rem;
+        font-weight: 500;
+        line-height: 2.4rem;
+    }
+}
+
+.ticker-content {
+    display: flex;
+    gap: 1.8rem;
+    white-space: nowrap;
+    will-change: transform;
+
+}

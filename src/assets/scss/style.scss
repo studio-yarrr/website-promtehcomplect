@@ -1,0 +1,120 @@
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "vendor/reset";
+
+html {
+  box-sizing: border-box;
+  font-size: calc(100vw / 1920 * 10);
+
+  @include breakpoint($xl-bp) {
+    font-size: calc(100vw / 1024 * 10);
+  }
+
+  @include breakpoint($sm-bp) {
+    font-size: calc(100vw / 375 * 10);
+  }
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  font-family: Roboto;
+  font-style: normal;
+  line-height: normal;
+  scroll-behavior: smooth;
+  background: #F9F9F9;
+}
+
+.border-button {
+  border-radius: 2.5rem;
+  border: 0.1rem solid var(--blue);
+  padding: 1rem;
+  color: var(--black);
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2rem;
+  text-transform: uppercase;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s linear;
+  width: fit-content;
+
+  &:hover {
+    background: var(--opacity-blue);
+    color: var(--white);
+  }
+}
+
+.blue-button {
+  color: var(--white);
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 2rem;
+  text-transform: uppercase;
+  border-radius: 5rem;
+  background: var(--blue);
+  border: none;
+  padding: 1rem;
+}
+
+.page-padding {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.arrow-button {
+  color: var(--black);
+  font-family: Roboto;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 2rem;
+  text-transform: uppercase;
+  border-radius: 5rem;
+  border: 0.1rem solid var(--blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem 3rem;
+  width: fit-content;
+
+
+  svg {
+    width: 5rem;
+    height: 5rem;
+    fill: var(--black)
+  }
+}
+
+.footer-margin {
+  margin-top: 10rem
+}
+
+@import './blocks/header.scss';
+@import './blocks/swiper.scss';
+@import './blocks/footer.scss';
+@import './blocks/main.scss';
+@import './blocks/title-block.scss';
+@import './blocks/ticker.scss';
+@import './blocks/products.scss';
+@import './blocks/chip.scss';
+@import './blocks/more.scss';
+@import './blocks/video-container.scss';
+@import './blocks/press-center.scss';
+@import './blocks/manufacturers.scss';
+@import './blocks/about-us.scss';
+@import './blocks/questions.scss';
+@import './blocks/universal-title-block.scss';
+@import './blocks/connect.scss';
+@import './blocks/road.scss';
+@import './blocks/news-links.scss';
+@import './blocks/products-table.scss';
+
