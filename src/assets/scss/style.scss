@@ -70,6 +70,11 @@ body {
   padding-right: 8rem;
 }
 
+.page-margin {
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
 .arrow-button {
   color: var(--black);
   font-family: Roboto;
@@ -98,6 +103,10 @@ body {
   margin-top: 10rem
 }
 
+.mt-10 {
+  margin-top: 10rem
+}
+
 @import './blocks/header.scss';
 @import './blocks/swiper.scss';
 @import './blocks/footer.scss';
@@ -117,4 +126,9 @@ body {
 @import './blocks/road.scss';
 @import './blocks/news-links.scss';
 @import './blocks/products-table.scss';
+@import './blocks/news-pagination.scss';
+@import './blocks/search.scss';
+@import './blocks/products-variants.scss';
+@import './blocks/addition-to-watch.scss';
+@import './blocks/basket.scss';
 

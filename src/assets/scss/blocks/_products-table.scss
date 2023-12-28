@@ -74,6 +74,11 @@
                     line-height: 3.2rem;
                     outline: none;
                     text-align: center;
+
+                    &::-webkit-outer-spin-button,
+                    &::-webkit-inner-spin-button {
+                        -webkit-appearance: none;
+                    }
                 }
 
                 button {
@@ -107,4 +112,45 @@
 
 
     }
+}
+
+.calendar-button__container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8.5rem;
+
+    button {
+        border: none;
+        border-radius: 50%;
+        width: 25.4rem;
+        height: 25.4rem;
+        background: var(--opacity-blue);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        svg {
+            width: 12rem;
+            height: 12rem;
+            fill: var(--white);
+        }
+    }
+}
+
+.basket-title {
+    li {
+        color: var(--black);
+        text-align: center;
+        font-family: BOWLER;
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 2.8rem;
+        letter-spacing: 0.1rem;
+        text-transform: uppercase;
+    }
+}
+
+.basket-table {
+    padding-bottom: 4rem;
+    border-bottom: 0.2rem solid var(--gray);
 }

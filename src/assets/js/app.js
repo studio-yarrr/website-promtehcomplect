@@ -58,11 +58,16 @@ document.addEventListener("DOMContentLoaded", () => {
             const currentValue = parseInt(input.value, 10);
             if (this.classList.contains('increase')) {
                 input.value = currentValue + 1;
-            } else {
+            } else if (currentValue > 0) { 
                 input.value = currentValue - 1;
             }
         });
     });
+
+    let additionToWatchSwiper = new Swiper(".addition-to-watch-swiper", {
+        slidesPerView: 4,
+        spaceBetween: 50,
+      });
     
 
 });
