@@ -1,0 +1,266 @@
+.create-order {
+
+
+    input {
+        padding: 2.3rem 1.6rem;
+        color: var(--black);
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 1.6rem;
+        border-radius: 0.7rem;
+        border: 0.1rem solid var(--gray);
+        outline: none;
+        background: transparent;
+
+        &::placeholder {
+            color: var(--gray);
+        }
+    }
+
+    .custom-select {
+        position: relative;
+    }
+
+    .custom-select select {
+        display: none;
+    }
+
+    .select-trigger {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+
+        svg {
+            width: 0.9rem;
+            height: 1.5rem;
+        }
+    }
+
+    .select-options {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: none;
+
+    }
+
+    .select-options li {
+        cursor: pointer;
+    }
+
+    .select-options li:hover {}
+
+    .select-trigger {
+        padding: 2.3rem 1.6rem;
+        color: var(--gray);
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 1.6rem;
+        border-radius: 0.7rem;
+        border: 0.1rem solid var(--gray);
+        outline: none;
+        background: transparent;
+        width: 35rem;
+    }
+
+    .select-options {
+        padding: 2.3rem 1.6rem;
+        z-index: 11;
+        width: 100%;
+        border: 0.1rem solid var(--gray);
+        border-radius: 0.7rem;
+        width: 35rem;
+        background: var(--white);
+        color: var(--black);
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 1.6rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+
+
+
+
+.create-order {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8.6rem;
+
+    h2 {
+        color: var(--black);
+        font-family: BOWLER;
+        font-size: 3.2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 3.2rem;
+        letter-spacing: 0.16rem;
+        text-transform: uppercase;
+    }
+
+    p {
+        color: var(--black);
+        font-size: 2.4rem;
+        font-weight: 600;
+        line-height: 3.2rem;
+    }
+
+    form {
+        width: 73rem;
+    }
+
+
+}
+
+.order-list {
+    width: 71.1rem;
+}
+
+.form-contacts {
+    margin-top: 5rem;
+}
+
+.form-contacts__input-container {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+    input {
+
+        width: 35rem;
+
+
+    }
+}
+
+.form-delivery {
+    margin-top: 6rem;
+}
+
+.form-delivery__tabs-btns {
+    display: flex;
+    gap: 5rem;
+}
+
+.form-delivery__tabs-btn {
+    cursor: pointer;
+
+    p {
+        color: var(--gray);
+    }
+
+    &.--active {
+        p {
+            color: var(--black);
+        }
+    }
+
+    &>div {
+        display: none;
+    }
+}
+
+.form-delivery__content {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+    input {
+        width: 16rem;
+    }
+
+    .street {
+        width: 54rem;
+    }
+}
+
+.form-date {
+    margin-top: 6rem;
+}
+
+.send-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .blue-button {
+        margin-top: 9.5rem;
+        width: 34rem;
+        padding: 2rem;
+    }
+}
+
+.order-list {
+
+    &>ul {
+        margin-top: 5rem;
+
+        li {
+
+            ul {
+                display: flex;
+
+                li {
+                    color: var(--black);
+                    font-family: Roboto;
+                    font-size: 2.4rem;
+                    font-weight: 400;
+                    line-height: 3.2rem;
+                    text-align: center;
+                    padding: 1rem;
+
+                    &:first-child {
+                        width: 30rem;
+                    }
+
+                    &:last-child {
+                        width: 40rem;
+                    }
+                }
+            }
+
+            &:first-child {
+
+                ul {
+
+                    li {
+                        color: var(--black);
+                        text-align: center;
+                        font-family: BOWLER;
+                        font-size: 2rem;
+                        font-weight: 400;
+                        line-height: 2.8rem;
+                        letter-spacing: 0.01rem;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.total-price {
+    display: flex;
+    justify-content: center;
+    margin-top: 6.3rem;
+    gap: 1.3rem;
+
+    p {
+        color: var(--black);
+        font-family: BOWLER;
+        font-size: 3.2rem;
+        font-weight: 400;
+        line-height: 3.6rem;
+        letter-spacing: 0.16rem;
+        text-transform: uppercase;
+    }
+}

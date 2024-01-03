@@ -2497,13 +2497,13 @@ footer {
     padding-right: 3rem;
 }
 
-form {
+.connect-content form {
     width: 50%;
     padding-left: 4.8rem;
     border-left: 0.1rem solid var(--gray);
 }
 
-form h2 {
+.connect-content form h2 {
     color: var(--black);
     font-family: BOWLER;
     font-size: 4.8rem;
@@ -2518,11 +2518,11 @@ form h2 {
     justify-content: flex-end;
 }
 
-form h2 span {
+.connect-content form h2 span {
     color: var(--blue);
 }
 
-form textarea {
+.connect-content form textarea {
     margin-top: 3.7rem;
     border-radius: 3.5rem;
     border: 0.1rem solid var(--black);
@@ -2537,27 +2537,27 @@ form textarea {
     line-height: 2.8rem;
 }
 
-form textarea::-webkit-input-placeholder {
+.connect-content form textarea::-webkit-input-placeholder {
     opacity: 0.25;
 }
 
-form textarea::-moz-placeholder {
+.connect-content form textarea::-moz-placeholder {
     opacity: 0.25;
 }
 
-form textarea:-ms-input-placeholder {
+.connect-content form textarea:-ms-input-placeholder {
     opacity: 0.25;
 }
 
-form textarea::-ms-input-placeholder {
+.connect-content form textarea::-ms-input-placeholder {
     opacity: 0.25;
 }
 
-form textarea::placeholder {
+.connect-content form textarea::placeholder {
     opacity: 0.25;
 }
 
-form .blue-button {
+.connect-content form .blue-button {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
@@ -3212,4 +3212,542 @@ form .blue-button {
     padding-bottom: 2.5rem;
     margin-right: 4rem;
     margin-top: 4.5rem;
+}
+
+.create-order input {
+    padding: 2.3rem 1.6rem;
+    color: var(--black);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    border-radius: 0.7rem;
+    border: 0.1rem solid var(--gray);
+    outline: none;
+    background: transparent;
+}
+
+.create-order input::-webkit-input-placeholder {
+    color: var(--gray);
+}
+
+.create-order input::-moz-placeholder {
+    color: var(--gray);
+}
+
+.create-order input:-ms-input-placeholder {
+    color: var(--gray);
+}
+
+.create-order input::-ms-input-placeholder {
+    color: var(--gray);
+}
+
+.create-order input::placeholder {
+    color: var(--gray);
+}
+
+.create-order .custom-select {
+    position: relative;
+}
+
+.create-order .custom-select select {
+    display: none;
+}
+
+.create-order .select-trigger {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.create-order .select-trigger svg {
+    width: 0.9rem;
+    height: 1.5rem;
+}
+
+.create-order .select-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.create-order .select-options li {
+    cursor: pointer;
+}
+
+.create-order .select-trigger {
+    padding: 2.3rem 1.6rem;
+    color: var(--gray);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    border-radius: 0.7rem;
+    border: 0.1rem solid var(--gray);
+    outline: none;
+    background: transparent;
+    width: 35rem;
+}
+
+.create-order .select-options {
+    padding: 2.3rem 1.6rem;
+    z-index: 11;
+    width: 100%;
+    border: 0.1rem solid var(--gray);
+    border-radius: 0.7rem;
+    width: 35rem;
+    background: var(--white);
+    color: var(--black);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.create-order {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 8.6rem;
+}
+
+.create-order h2 {
+    color: var(--black);
+    font-family: BOWLER;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.2rem;
+    letter-spacing: 0.16rem;
+    text-transform: uppercase;
+}
+
+.create-order p {
+    color: var(--black);
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+}
+
+.create-order form {
+    width: 73rem;
+}
+
+.order-list {
+    width: 71.1rem;
+}
+
+.form-contacts {
+    margin-top: 5rem;
+}
+
+.form-contacts__input-container {
+    margin-top: 2.5rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.form-contacts__input-container input {
+    width: 35rem;
+}
+
+.form-delivery {
+    margin-top: 6rem;
+}
+
+.form-delivery__tabs-btns {
+    display: -ms-flexbox;
+    display: flex;
+    gap: 5rem;
+}
+
+.form-delivery__tabs-btn {
+    cursor: pointer;
+}
+
+.form-delivery__tabs-btn p {
+    color: var(--gray);
+}
+
+.form-delivery__tabs-btn.--active p {
+    color: var(--black);
+}
+
+.form-delivery__tabs-btn > div {
+    display: none;
+}
+
+.form-delivery__content {
+    margin-top: 2.5rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.form-delivery__content input {
+    width: 16rem;
+}
+
+.form-delivery__content .street {
+    width: 54rem;
+}
+
+.form-date {
+    margin-top: 6rem;
+}
+
+.send-button {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.send-button .blue-button {
+    margin-top: 9.5rem;
+    width: 34rem;
+    padding: 2rem;
+}
+
+.order-list > ul {
+    margin-top: 5rem;
+}
+
+.order-list > ul li ul {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.order-list > ul li ul li {
+    color: var(--black);
+    font-family: Roboto;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.order-list > ul li ul li:first-child {
+    width: 30rem;
+}
+
+.order-list > ul li ul li:last-child {
+    width: 40rem;
+}
+
+.order-list > ul li:first-child ul li {
+    color: var(--black);
+    text-align: center;
+    font-family: BOWLER;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+    letter-spacing: 0.01rem;
+    text-transform: uppercase;
+}
+
+.total-price {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 6.3rem;
+    gap: 1.3rem;
+}
+
+.total-price p {
+    color: var(--black);
+    font-family: BOWLER;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 3.6rem;
+    letter-spacing: 0.16rem;
+    text-transform: uppercase;
+}
+
+.piece-of-news {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.piece-of-news__left {
+    width: 100rem;
+}
+
+.piece-of-news__right {
+    width: 55rem;
+}
+
+.piece-of-news__text {
+    margin-top: 7rem;
+}
+
+.piece-of-news__text h2 {
+    color: var(--black);
+    font-family: BOWLER;
+    font-size: 4.8rem;
+    font-weight: 400;
+    line-height: 5.6rem;
+    letter-spacing: 0.24rem;
+    text-transform: uppercase;
+}
+
+.piece-of-news__text h2 span {
+    color: var(--blue);
+}
+
+.piece-of-news__text h3 {
+    color: var(--black);
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 4rem;
+    margin-top: 2rem;
+}
+
+.piece-of-news__text p {
+    margin-top: 5.5rem;
+    color: var(--black);
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    opacity: 0.85;
+}
+
+.piece-of-news__text-description {
+    margin-top: 5.5rem;
+}
+
+.piece-of-news__text-description h3 {
+    color: var(--black);
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 4rem;
+}
+
+.piece-of-news__text-description p {
+    margin-top: 2.5rem;
+}
+
+.piece-of-news__text-description p span {
+    font-weight: 500;
+}
+
+.piece-of-news__text-description p a {
+    display: inline;
+    color: var(--opacity-blue);
+}
+
+.piece-of-news__text-advantages {
+    margin-top: 5.5rem;
+}
+
+.piece-of-news__text-advantages h3 {
+    margin-top: 0;
+}
+
+.piece-of-news__text-advantages ol {
+    margin-top: 2.5rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.piece-of-news__text-advantages ol li {
+    color: var(--black);
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    opacity: 0.85;
+    list-style: number;
+    margin-left: 2.5rem;
+}
+
+.piece-of-news__text-settings {
+    margin-top: 5.5rem;
+}
+
+.piece-of-news__text-settings h3 {
+    margin-top: 0;
+}
+
+.piece-of-news__text-settings ul {
+    margin-top: 2.5rem;
+}
+
+.piece-of-news__text-settings ul li {
+    color: var(--black);
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    opacity: 0.85;
+    list-style: disc;
+    margin-left: 2.5rem;
+}
+
+.piece-of-news__variants-of-use {
+    margin-top: 5.5rem;
+}
+
+.piece-of-news__variants-of-use h3 {
+    margin-top: 0;
+}
+
+.piece-of-news__variants-of-use p {
+    margin-top: 2.5rem;
+}
+
+.piece-of-news__right h2 {
+    color: var(--black);
+    text-align: right;
+    font-family: BOWLER;
+    font-size: 3.6rem;
+    font-weight: 400;
+    line-height: 3.6rem;
+    letter-spacing: 0.18rem;
+    text-transform: uppercase;
+}
+
+.piece-of-news__right ul {
+    margin-top: 6rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 8rem;
+}
+
+.piece-of-news__right p {
+    margin-top: 2.7rem;
+    color: var(--black);
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+}
+
+.piece-of-news__right .border-button {
+    padding: 2rem;
+    width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.piece-of-news__right-img {
+    width: 100%;
+}
+
+.piece-of-news__right-img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.about-us__title {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.about-us__title h2 {
+    width: 79rem;
+    color: var(--black);
+    font-family: BOWLER;
+    font-size: 4.8rem;
+    font-weight: 400;
+    line-height: 4.8rem;
+    letter-spacing: 0.24rem;
+    text-transform: uppercase;
+}
+
+.about-us__title p {
+    width: 85.5rem;
+    color: var(--black);
+    text-align: right;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+}
+
+.about-us__advantages {
+    border-top: 0.1rem solid var(--gray);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.about-us__advantages li {
+    width: 40.5rem;
+}
+
+.about-us__advantages li div {
+    margin-top: 5.5rem;
+    border-right: 0.1rem solid var(--gray);
+    padding-top: 5rem;
+    padding-right: 2.4rem;
+}
+
+.about-us__advantages li div h2 {
+    color: var(--dark-blue);
+    font-size: 7rem;
+    font-weight: 400;
+    line-height: 7rem;
+    text-transform: uppercase;
+}
+
+.about-us__advantages li div p:first-of-type {
+    color: var(--black);
+    font-family: BOWLER;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 4rem;
+    letter-spacing: 0.16rem;
+    text-transform: uppercase;
+}
+
+.about-us__advantages li div p:last-of-type {
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+    margin-top: 3.5rem;
+}
+
+.about-us__advantages li:last-child div {
+    border-right: none;
+}
+
+.world-img {
+    width: 100%;
+}
+
+.world-img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
 }

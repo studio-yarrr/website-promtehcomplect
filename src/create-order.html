@@ -1,0 +1,211 @@
+{{> _header}}
+
+<div class="breadcrumbs page-padding">
+    <a href="#">Главная</a>
+    <svg>
+        <use href="#breadcrumbs-arrow"></use>
+    </svg>
+    <p>Оформление заказа</p>
+</div>
+
+<section class="create-order page-padding">
+    <form action="#">
+        <h2>Оформление заказа</h2>
+        <div class="form-contacts">
+            <p>Контактные данные</p>
+            <div class="form-contacts__input-container">
+                <input type="text" placeholder="ФИО" name="ФИО">
+                <input type="tel" placeholder="Номер телефона" name="номер телефона">
+                <input type="email" placeholder="Email" name="mail">
+            </div>
+        </div>
+
+        <div class="form-delivery">
+            <div class="form-delivery__tabs-btns">
+                <div class="form-delivery__tabs-btn">
+                    <p>Доставка</p>
+
+                    <div>
+                        <div class="custom-select">
+                            <select class="my-select">
+                                <option value="option1">Option 1</option>
+                                <option value="option2">Option 2</option>
+                                <option value="option3">Option 3</option>
+                                <option value="option4">Option 4</option>
+                            </select>
+                            <span class="select-trigger">
+                                <span>Регион</span>
+                                <svg>
+                                    <use href="#select-arrow-down"></use>
+                                </svg>
+                            </span>
+                            <ul class="select-options">
+                                <li data-value="option1">Option 1</li>
+                                <li data-value="option2">Option 2</li>
+                                <li data-value="option3">Option 3</li>
+                                <li data-value="option4">Option 4</li>
+                            </ul>
+                        </div>
+
+                        <div class="custom-select">
+                            <select class="my-select">
+                                <option value="option1">Option 1</option>
+                                <option value="option2">Option 2</option>
+                                <option value="option3">Option 3</option>
+                                <option value="option4">Option 4</option>
+                            </select>
+                            <span class="select-trigger">
+                                <span>Город</span>
+                                <svg>
+                                    <use href="#select-arrow-down"></use>
+                                </svg>
+                            </span>
+                            <ul class="select-options">
+                                <li data-value="option1">Option 1</li>
+                                <li data-value="option2">Option 2</li>
+                                <li data-value="option3">Option 3</li>
+                                <li data-value="option4">Option 4</li>
+                            </ul>
+                        </div>
+
+                        <input type="text" placeholder="Улица" name="street">
+                        <input type="text" placeholder="Дом" name="Дом">
+                        <input type="text" placeholder="Корпус" name="Корпус">
+                        <input type="text" placeholder="Подъезд" name="Подъезд">
+                        <input type="text" placeholder="Квартира" name="Квартира">
+                        <input type="text" placeholder="Этаж" name="Этаж">
+                    </div>
+                </div>
+
+                <div class="form-delivery__tabs-btn">
+                    <p>Самовывоз</p>
+                    <div>
+                        <p>Контент которого нету в макете</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-delivery__content"></div>
+        </div>
+
+        <div class="form-date">
+            <p>Дата и время</p>
+
+            <div class="form-contacts__input-container">
+                <div class="custom-select">
+                    <select class="my-select">
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                        <option value="option4">Option 4</option>
+                    </select>
+                    <span class="select-trigger">
+                        <span>Завтра</span>
+                        <svg>
+                            <use href="#select-arrow-down"></use>
+                        </svg>
+                    </span>
+                    <ul class="select-options">
+                        <li data-value="option1">Option 1</li>
+                        <li data-value="option2">Option 2</li>
+                        <li data-value="option3">Option 3</li>
+                        <li data-value="option4">Option 4</li>
+                    </ul>
+                </div>
+
+                <div class="custom-select">
+                    <select class="my-select">
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                        <option value="option4">Option 4</option>
+                    </select>
+                    <span class="select-trigger">
+                        <span>С 15.00 до 16.00</span>
+                        <svg>
+                            <use href="#select-arrow-down"></use>
+                        </svg>
+                    </span>
+                    <ul class="select-options">
+                        <li data-value="option1">Option 1</li>
+                        <li data-value="option2">Option 2</li>
+                        <li data-value="option3">Option 3</li>
+                        <li data-value="option4">Option 4</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="send-button">
+            <button type="submit" class="blue-button">
+                заказать
+            </button>
+        </div>
+    </form>
+
+    <div class="order-list">
+        <h2>Текущий заказ</h2>
+
+        <ul>
+            <li>
+                <ul>
+                    <li>Наименование</li>
+                    <li>всего</li>
+                </ul>
+            </li>
+                
+            <li>
+                <ul>
+                    <li>9DB803DGILF</li>
+                    <li>200 000</li>
+                </ul>
+            </li>
+            
+            <li>
+                <ul>
+                    <li>9DB803DGILF</li>
+                    <li>200 000</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>9DB803DGILF</li>
+                    <li>200 000</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>9DB803DGILF</li>
+                    <li>200 000</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>9DB803DGILF</li>
+                    <li>200 000</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>9DB803DGILF</li>
+                    <li>200 000</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>9DB803DGILF</li>
+                    <li>200 000</li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="total-price">
+            <p>Всего:</p>
+            <p>1 200 000</p>
+        </div>
+    </div>
+</section>
+
+<div class="footer-margin"></div>
+
+{{> _footer}}
