@@ -558,12 +558,16 @@ body {
     fill: var(--black);
 }
 
-.footer-margin {
-    margin-top: 10rem;
+.mt-7 {
+    margin-top: 7rem;
 }
 
 .mt-10 {
     margin-top: 10rem;
+}
+
+.mt-17 {
+    margin-top: 17rem;
 }
 
 header {
@@ -2112,21 +2116,24 @@ footer {
     line-height: 3.2rem;
 }
 
-.manufacturers ul {
-    margin-top: 7rem;
+.partners {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
     align-items: center;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
-.manufacturers ul li {
-    width: 30rem;
+.partners li {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
 }
 
-.manufacturers ul li img {
+.partners li img {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
@@ -2273,6 +2280,249 @@ footer {
 }
 
 .about-us-content__buttons-img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.about-us__description p {
+    color: var(--black);
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.8rem;
+}
+
+.about-us__description p a {
+    color: var(--blue);
+    display: inline;
+}
+
+.about-us__choose-title {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 4.3rem;
+    -ms-flex-align: end;
+    align-items: end;
+}
+
+.about-us__choose-title h2 {
+    color: var(--black);
+    text-align: right;
+    font-family: BOWLER;
+    font-size: 6.4rem;
+    font-weight: 400;
+    line-height: 6.4rem;
+    letter-spacing: 0.32rem;
+    text-transform: uppercase;
+}
+
+.about-us__choose-title h2 span {
+    color: var(--blue);
+}
+
+.about-us__choose-title p {
+    color: var(--black);
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 4.8rem;
+    text-align: right;
+    width: 70%;
+}
+
+.about-us__choose-title p span {
+    color: var(--opacity-blue);
+}
+
+.about-us__choose-content {
+    margin-top: 7rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.about-us__choose-content ul {
+    width: 67%;
+}
+
+.about-us__choose-content ul li {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.about-us__choose-content ul li p:first-child {
+    color: var(--dark-blue);
+    font-family: BOWLER;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 3.8rem;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    width: 30%;
+}
+
+.about-us__choose-content ul li p:last-child {
+    color: var(--black);
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    width: 60%;
+}
+
+.about-us__choose-content ul li:first-child {
+    border-bottom: 0.1rem solid var(--gray);
+    padding-bottom: 3.8rem;
+}
+
+.about-us__choose-content ul li:not(:first-child) {
+    padding: 4.3rem 0 3.8rem 0;
+    border-bottom: 0.1rem solid var(--gray);
+}
+
+.about-us__choose-content-img {
+    width: 27%;
+    border-radius: 5rem;
+    overflow: hidden;
+}
+
+.about-us__choose-content-img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.about-us__projects ul {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-top: 16.5rem;
+}
+
+.about-us__projects ul li {
+    width: 55rem;
+}
+
+.about-us__projects ul li div {
+    width: 100%;
+    border-radius: 2.5rem;
+    overflow: hidden;
+}
+
+.about-us__projects ul li div img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.about-us__projects ul li p {
+    margin-top: 1rem;
+    color: var(--black);
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    text-align: center;
+}
+
+.about-us__partners h2 {
+    color: var(--black);
+    font-family: BOWLER;
+    font-size: 6.4rem;
+    font-weight: 400;
+    line-height: 7.2rem;
+    letter-spacing: 0.32rem;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.about-us__partners p {
+    margin-top: 6rem;
+    color: var(--black);
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 4.8rem;
+}
+
+.about-us__partners p a {
+    display: inline;
+    color: var(--blue);
+}
+
+.about-us__partners p span {
+    color: var(--opacity-blue);
+}
+
+.about-us__partners .partners {
+    margin-top: 13.5rem;
+    gap: 8.7rem;
+}
+
+.about-us__team-title {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+}
+
+.about-us__team-title div {
+    width: 60%;
+}
+
+.about-us__team-title h2 {
+    color: var(--black);
+    text-align: right;
+    font-family: BOWLER;
+    font-size: 6.4rem;
+    font-weight: 400;
+    line-height: 6.4rem;
+    letter-spacing: 0.32rem;
+    text-transform: uppercase;
+}
+
+.about-us__team-title h2 span {
+    color: var(--blue);
+}
+
+.about-us__team-title p {
+    margin-top: 2.5rem;
+    color: var(--black);
+    text-align: right;
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 4.8rem;
+}
+
+.about-us__team-title p span {
+    color: var(--opacity-blue);
+}
+
+.about-us__team > p {
+    color: var(--black);
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    margin-top: 11rem;
+}
+
+.about-us__team-img {
+    width: 100%;
+    border-radius: 2.5rem;
+    overflow: hidden;
+    margin-top: 6.5rem;
+}
+
+.about-us__team-img img {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
